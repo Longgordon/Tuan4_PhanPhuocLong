@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Mydata">
+  <DataContextMoniker Name="/MydataDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d966919e-a60a-4c22-96d4-8f469abd0e1f" absoluteBounds="2.625, 2.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/MydataDataContext/Loai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0886c2c5-263d-4e5e-94e7-e72f110924b4" absoluteBounds="2.64, 3.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="25fcd1c2-89d8-4d46-8104-50d898646033" absoluteBounds="5.125, 1.375, 2, 2.5401025390625">
+      <DataClassMoniker Name="/MydataDataContext/Rubik" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ea37aab5-bd15-4565-9e22-bb7d79686f51" absoluteBounds="5.14, 1.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.625 : 3.33255126953125); (5.125 : 3.33255126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MydataDataContext/Loai/Loai_Rubik" />
+      <nodes>
+        <classShapeMoniker Id="d966919e-a60a-4c22-96d4-8f469abd0e1f" />
+        <classShapeMoniker Id="25fcd1c2-89d8-4d46-8104-50d898646033" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
